@@ -1,7 +1,7 @@
 import BlogList from "@/components/BlogList";
 import Card from "@/components/Card";
 
-export const Home = () => {
+export default function Home() {
     return (
         <main className="">
             <div className="container flex flex-col gap-4 px-4 py-8 max-w-[80%] m-auto min-h-screen">
@@ -24,5 +24,3 @@ export const Home = () => {
         </main>
     );
 };
-
-export default Home;

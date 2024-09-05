@@ -1,9 +1,9 @@
 ---
-title: "My First Blog Post"
+title: "TypeScript Programlama Dili Başlangıç"
 date: "2024-09-05"
-author: "Alp Savas"
+author: "Alp Savaş"
 tags: ["Next.js", "Markdown", "Blog"]
-description: "A brief description of my first blog post."
+description: "TypeScript Programlama dili, JavaScript ile ilişkisi ve öğrenmeye başlamak için bazı kaynaklar"
 excerpt: "TypeScript’i JavaScript’ten bağımsız olarak ele almak mümkün değil. Bu yüzden kısaca JavaScript programlama dilinden bahsederek başlamak istiyorum. JavaScript, internetin henüz daha yeni yaygınlaşmaya başladığı, web üzerinde sadece statik dokümanların ve bilgilerin paylaşıldığı bir dönemde, 1995 yılında, web’e hareket kazandırmak, web’i daha etkileşimli bir hale getirmek için zamanın önde gelen"
 ---
 
