@@ -1,6 +1,5 @@
 import BlogList from "@/components/BlogList";
 import Card from "@/components/Card";
-import Link from "next/link";
 
 export const Home = () => {
     return (

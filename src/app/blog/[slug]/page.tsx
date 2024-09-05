@@ -19,7 +19,7 @@ export default async function BlogPost({ params }: { params: { slug: string; }; 
     const { slug } = params;
 
     const blog = await getBlogData(slug);
-    
+
     return (
         <Blog blog={blog}></Blog>
     );

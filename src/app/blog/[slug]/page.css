@@ -14,3 +14,16 @@ p {
     margin-bottom: 1.8rem;
     line-height: 1.8rem;
 }
+
+pre {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: rgba(250, 250, 210, 0.6);
+    border-radius: .2rem;
+}
+
+a {
+    color: navy;
+    font-weight: bold;
+    text-decoration: underline;
+}
