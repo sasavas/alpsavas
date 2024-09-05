@@ -4,7 +4,7 @@ import Card from "@/components/Card";
 export default function Home() {
     return (
         <main className="">
-            <div className="container flex flex-col gap-4 px-4 py-8 max-w-[80%] m-auto min-h-screen">
+            <div className="container min-h-screen flex flex-col gap-4 py-8 w-[95%] lg:w-[80%] xl:max-w-[60rem] mx-auto">
                 <p className="text-4xl font-bold text-primaryText">Hi, I'm Alp Savas</p>
                 <div>
                     <p className="text-l text-secondaryText">Software Developer. Currently working as a freelancer and consultant.</p>

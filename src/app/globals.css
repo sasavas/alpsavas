@@ -16,7 +16,7 @@
   }
 }
 
-body{
+body {
   background-color: white;
 }
 
@@ -24,4 +24,8 @@ body{
   .text-balance {
     text-wrap: balance;
   }
+}
+
+pre {
+  overflow-x: auto;
 }

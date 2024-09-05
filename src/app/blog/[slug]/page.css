@@ -1,8 +1,18 @@
 article{
-    max-width: 80%;
+    width: 90%;
     margin: 4rem auto;
-    padding-left: 4rem;
-    padding-right: 4rem;
+}
+
+@media screen and (min-width: 1024px) {
+    article{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    article{
+        max-width: 60rem;
+    }
 }
 
 h1 {
