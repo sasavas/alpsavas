@@ -1,18 +1,15 @@
-import { title } from "process";
+import { metadata } from "@/app/layout";
 import BlogListItem from "./BlogListItem";
+import { getAllBlogPosts } from "@/libs/blog/blogSlugListRetriever";
 
-const blogList: readonly BlogListItemType[] =
-    [
-        { title: "Blog 1", content: "Content 1" },
-        { title: "blog 2", content: "content 2" }
-    ] as const;
+var allBlogs: BlogPostSummary[] = await getAllBlogPosts();
 
 const BlogList = () => {
     return (
         <div className="flex flex-col gap-4">
-            {blogList.map(blog => {
+            {allBlogs.map(blog => {
                 return (
-                    <BlogListItem key={blog.title} title={blog.title} content={blog.content} />
+                    <BlogListItem key={blog.slug} blog={blog} />
                 );
             })}
         </div>

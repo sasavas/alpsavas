@@ -1,0 +1,16 @@
+article{
+    max-width: 80%;
+    margin: 4rem auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 1.8rem;
+    line-height: 1.8rem;
+}
