@@ -20,7 +20,6 @@ export default function Home() {
                     <BlogList />
                 </div>
             </div>
-
         </main>
     );
 };
