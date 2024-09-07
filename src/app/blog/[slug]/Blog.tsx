@@ -22,6 +22,7 @@ const Blog: React.FC<BlogProps> = ({ blog }) => {
                 <span>{metadata.author}</span>
                 {", "}
                 <span className='italic'>{metadata.date}</span>
+                <span className='italic'>{", Last Updated at: " + metadata.lastUpdated}</span>
             </p>
             <MDXRemote {...source} />
         </article>

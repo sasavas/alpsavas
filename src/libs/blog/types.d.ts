@@ -6,6 +6,7 @@ interface BlogPostSummary {
 interface BlogMetaData {
   title: string;
   date: string;
+  lastUpdated: string;
   author: string;
   tags: string[];
   description?: string;
