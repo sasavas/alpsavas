@@ -12,7 +12,7 @@ const Card: React.FC<WrapperProps> = ({ children, className, shadowColor }) => {
     };
     return (
         <div
-            className={`p-4 border border-lightGray rounded-xl ${className}`}
+            className={`px-6 py-4 border border-lightGray rounded-xl ${className}`}
             style={style}
         >
             {children}

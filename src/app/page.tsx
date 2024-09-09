@@ -16,6 +16,7 @@ export default function Home() {
                 </Card>
                 <Card className="flex flex-col gap-8 md:flex-row md:items-center">
                     <img className="self-center md:self-auto m-2 rounded-full w-40 h-40 md:w-48 md:h-48 object-cover border-sky-200 border-4" src="./images/profile.jpg" alt="Profile Image" />
+                    <div className="w-full border-[2px] md:border-none md:w-0 border-sky-100"></div>
                     <div>
                         <h1 className="text-4xl text-center md:text-left font-bold text-primaryText mb-4">Hi, I'm Alp Savas</h1>
                         <p className="text-l text-secondaryText">Software Developer. Currently working as a freelancer and consultant.</p>
