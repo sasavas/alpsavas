@@ -10,8 +10,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@iconify-icons/mdi": "^1.2.48",
+    "@iconify-icons/mdi-light": "^1.2.5",
+    "@iconify/react": "^5.0.2",
     "autoprefixer": "^10.4.20",
     "gray-matter": "^4.0.3",
+    "iconify-icon": "^2.1.0",
     "next": "14.2.7",
     "next-mdx-remote": "^5.0.0",
     "react": "^18",

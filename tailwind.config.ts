@@ -14,6 +14,8 @@ const config: Config = {
         lightGray: 'rgba(200, 200, 200, 0.8)',
         primaryText: 'black',
         secondaryText: '#555',
+        primaryTextDark: '#FFF',
+        secondaryTextDark: '#FFF',
       }
     },
   },
